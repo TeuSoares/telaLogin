@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Tela de Login</title> 
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/framework7-icons.css">
+  </head>
+  <body>
+
+    <div id="app">
+      <div class="view view-main">                   
+        <div data-name="home" class="page">            
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner bg-pink">
+              <div class="title text-color-white text-center">Tela de Login</div>
+            </div>
+          </div><!-- FIM NAVBAR --> 
+
+          <!-- Inicio conteudo da página Index -->
+          <div class="page-content">
+            <div class="block">
+             
+              <div class="block-title">
+                <div class="camera">
+                  <img src="" id="imagem">
+                </div>
+              </div>
+
+             <form class="list" id="my-form">
+              <ul>
+                <li>
+                  <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Usuário</div>
+                      <div class="item-input-wrap">
+                        <input class="text-color-white" type="text" name="name" id="usuario_l" placeholder="Usuário">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label">Senha</div>
+                      <div class="item-input-wrap">
+                        <input class="text-color-white" type="password" name="senha" id="senha_l" placeholder="******">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul> 
+              </form>
+
+              <button class="button-round button button-fill button-large bg-color-black" id="entrar">
+                Entrar <i class="icon f7-icons">square_arrow_right</i>
+              </button>
+
+              <div class="list">
+               <p class="text-center text-color-white">Não possui uma conta?</p>                   
+               <a href="/cadastro/" class="list-button text-center text-white">Cadastre-se<i class="icon f7-icons">arrow_right_square_fill</i></a>                       
+             </div>
+             <div id="resultado"></div>
+           </div>                   
+         </div>
+         <!-- FIM página Index -->
+       </div>
+     </div>
+   </div>
+
+<!-- area javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/framework7.bundle.min.js"></script>
+<script src="js/app.js"></script>
+<script src="cordova.js"></script>
+
+</body>
+</html>
+
+<!-- https://mycolor.space/ -->

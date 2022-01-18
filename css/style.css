@@ -1,0 +1,53 @@
+.text-center{
+    text-align:center;
+}
+.text-white{
+	color:#ffffff!important;
+}
+.bg-pink{
+    background:#320b50;
+}
+.page{
+  background-image: linear-gradient(to right top, #1d0537, #310f4d, #481864, #61217b, #7b2a92);
+  /*
+  referencia para gradiente
+  https://mycolor.space
+  */
+}
+.input-with-value{
+    color: #fff!important;
+}
+.list ul {
+    background: rgba(255, 255, 255, 0.04)!important;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color:rgba(255, 255, 255, 1)!important;
+    font-weight: 300;   
+}
+
+.item-content.item-input {
+    border: 1px solid rgba(255, 255, 255, 0.36);   
+    margin: 14px 0;     
+}
+.f7-icons.login{
+	font-size:3rem;
+}
+.item-title.item-label {
+    color: rgb(255, 188, 0)!important;
+}
+
+/* Formatando imagem */
+.camera{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.camera img{
+    width: 100%;
+    height: auto;
+}
